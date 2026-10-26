@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — Rafha Job Search Worker</title>
+<style>
+  body { font: 18px/1.6 system-ui, sans-serif; max-width: 720px; margin: 3rem auto; padding: 0 1.25rem; color: #17212b; }
+  h1, h2 { line-height: 1.2; }
+  a { color: #07599a; }
+</style>
+<main>
+  <p><a href="index.html">Rafha Job Search Worker</a></p>
+  <h1>Privacy policy</h1>
+  <p>Effective October 25, 2026. This is a single-user application used by its owner for a private job search.</p>
+  <h2>Google data accessed</h2>
+  <p>The app requests Google Drive access limited to files it creates or opens for its job-search ledger and reports. It requests read-only Gmail access. The current Gmail workflow reads recent message headers to flag possible replies from tracked employers; it does not send mail or change messages.</p>
+  <h2>How data is used and stored</h2>
+  <p>The job-search ledger and run reports are stored in the owner's Google Drive. Google OAuth credentials and an OpenAI API key are stored as encrypted secrets in a private GitHub repository for the scheduled worker. Workflow logs contain run summaries and links to public job postings, not Gmail message bodies or credential values. The app does not sell Google user data or use it for advertising.</p>
+  <p>The current AI pilot sends selected career evidence from the Drive ledger and public job-posting text to OpenAI for a bounded, read-only match assessment. Gmail message content is not sent to OpenAI. The AI assessment is saved in a Drive report for the owner's review; it does not automatically apply or contact employers.</p>
+  <h2>Access, retention, and control</h2>
+  <p>Only the owner controls the Google account, Drive files, and private GitHub repository. The owner can stop the GitHub Actions workflow, delete its secrets and Drive reports, and revoke the app's Google access in Google Account settings. This app retains Drive reports until the owner deletes them. The app does not share Google user data with employers.</p>
+  <p>For privacy questions, use the support email shown on the app's Google consent screen.</p>
+</main>
+</html>
